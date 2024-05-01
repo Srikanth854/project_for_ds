@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Prediction Interface</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0;">
+    <h1 style="text-align: center; margin-top: 50px;">Python Prediction Interface</h1>
+    <form action="/predict" method="post" style="max-width: 600px; margin: 50px auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <label for="CO" style="font-weight: bold; display: block; margin-bottom: 10px;">CO(GT):</label>
+        <input type="text" id="CO" name="CO" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="PT08.S1(CO)" style="font-weight: bold; display: block; margin-bottom: 10px;">PT08.S1(CO):</label>
+        <input type="text" id="PT08.S1(CO)" name="PT08.S1(CO)" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="C6H6(GT)" style="font-weight: bold; display: block; margin-bottom: 10px;">C6H6(GT):</label>
+        <input type="text" id="C6H6(GT)" name="C6H6(GT)" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="PT08.S2(NMHC)" style="font-weight: bold; display: block; margin-bottom: 10px;">PT08.S2(NMHC):</label>
+        <input type="text" id="PT08.S2(NMHC)" name="PT08.S2(NMHC)" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="NOx(GT)" style="font-weight: bold; display: block; margin-bottom: 10px;">NOx(GT):</label>
+        <input type="text" id="NOx(GT)" name="NOx(GT)" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="PT08.S3(NOx)" style="font-weight: bold; display: block; margin-bottom: 10px;">PT08.S3(NOx):</label>
+        <input type="text" id="PT08.S3(NOx)" name="PT08.S3(NOx)" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="NO2(GT)" style="font-weight: bold; display: block; margin-bottom: 10px;">NO2(GT):</label>
+        <input type="text" id="NO2(GT)" name="NO2(GT)" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="PT08.S4(NO2)" style="font-weight: bold; display: block; margin-bottom: 10px;">PT08.S4(NO2):</label>
+        <input type="text" id="PT08.S4(NO2)" name="PT08.S4(NO2)" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="PT08.S5(O3)" style="font-weight: bold; display: block; margin-bottom: 10px;">PT08.S5(O3):</label>
+        <input type="text" id="PT08.S5(O3)" name="PT08.S5(O3)" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="wspd" style="font-weight: bold; display: block; margin-bottom: 10px;">wspd:</label>
+        <input type="text" id="wspd" name="wspd" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <input type="submit" value="Predict" style="background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+    </form>
+</body>
+</html>

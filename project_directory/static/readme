@@ -1,0 +1,8 @@
+We need to execute the project in two ways 
+One is with Predicting Air Quality Index By age
+To do that
+run command "python app_date.py" in terminal
+
+Second way to execute the project is predicting air quality index with gas reading of individual gases
+To do that 
+run command "python app.py" in terminal

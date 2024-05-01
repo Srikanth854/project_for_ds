@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/static/img2.jpg'); /* Replace 'background.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: black; /* Set text color to white for better contrast */
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        strong {
+            color: #007bff;
+            animation: blinker 1s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Prediction Result</h1>
+    <p>Predicted AQI Category: <strong>{{ prediction }}</strong></p>
+    <a href="/">Make Another Prediction</a>
+</body>
+
+</html>
